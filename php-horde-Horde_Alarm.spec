@@ -9,7 +9,7 @@ License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.horde.org/get/%{pearname}-%{version}.tgz
 # Source0-md5:	ac86b52b70499d260d86113c626427af
-URL:		http://pear.horde.org/package/Horde_Alarm/
+URL:		https://github.com/horde/horde/tree/master/framework/Alarm/
 BuildRequires:	php-channel(pear.horde.org)
 BuildRequires:	php-packagexml2cl
 BuildRequires:	php-pear-PEAR
