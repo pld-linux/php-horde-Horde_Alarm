@@ -3,12 +3,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - Horde alarm libraries
 Name:		php-horde-Horde_Alarm
-Version:	1.0.0
+Version:	1.0.1
 Release:	1
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.horde.org/get/%{pearname}-%{version}.tgz
-# Source0-md5:	ac86b52b70499d260d86113c626427af
+# Source0-md5:	ea814a95ee017f19202e81a6729195c5
 URL:		https://github.com/horde/horde/tree/master/framework/Alarm/
 BuildRequires:	php-channel(pear.horde.org)
 BuildRequires:	php-packagexml2cl
