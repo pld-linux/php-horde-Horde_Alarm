@@ -3,12 +3,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - Horde alarm libraries
 Name:		php-horde-Horde_Alarm
-Version:	1.0.7
+Version:	1.0.8
 Release:	1
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.horde.org/get/%{pearname}-%{version}.tgz
-# Source0-md5:	7470550e9ac0fe90ab5294b443b25f71
+# Source0-md5:	e6ab0f6fa6f1819674401d56a6f720e3
 URL:		https://github.com/horde/horde/tree/master/framework/Alarm/
 BuildRequires:	php-channel(pear.horde.org)
 BuildRequires:	php-packagexml2cl
@@ -30,9 +30,6 @@ Suggests:	php-horde-Horde_Perms
 Suggests:	php-horde-Horde_Prefs
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-
-# exclude optional dependencies
-%define		_noautoreq	 pear(Horde/Db.*) pear(Horde/Log.*) pear(Horde/Mail.*) pear(Horde/Mime.*) pear(Horde/Notification.*) pear(Horde/Perms.*) pear(Horde/Prefs.*)
 
 %description
 This package provides an interface to deal with reminders, alarms and
