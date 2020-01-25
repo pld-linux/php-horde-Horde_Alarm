@@ -1,6 +1,5 @@
 %define		status		stable
 %define		pearname	Horde_Alarm
-%include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - Horde alarm libraries
 Name:		php-horde-Horde_Alarm
 Version:	1.0.8
